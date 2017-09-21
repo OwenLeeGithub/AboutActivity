@@ -20,7 +20,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".activities.BundleMutual" />
-        <activity android:name=".activities.BundleShow"></activity>
+        <activity android:name=".activities.BundleShow" />
+        <activity android:name=".activities.ResultActivity" />
+        <activity android:name=".activities.ResultOtherActivity"></activity>
     </application>
 
 </manifest>

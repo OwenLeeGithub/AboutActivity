@@ -9,15 +9,18 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.insanus.course.aboutactivity.activities.BundleMutual;
+import com.insanus.course.aboutactivity.activities.ResultActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private final String[] activityName = {
             "观察Bundle的传递模式",
+            "result的应用",
     };
 
     private final Class[] activities ={
             BundleMutual.class,
+            ResultActivity.class,
     };
 
     private ListView listView;
