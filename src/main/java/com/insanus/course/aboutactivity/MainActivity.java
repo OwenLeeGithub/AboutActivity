@@ -10,17 +10,20 @@ import android.widget.ListView;
 
 import com.insanus.course.aboutactivity.activities.BundleMutual;
 import com.insanus.course.aboutactivity.activities.ResultActivity;
+import com.insanus.course.aboutactivity.activities.launchMode.StandardActivity;
 
 public class MainActivity extends AppCompatActivity {
 
     private final String[] activityName = {
             "观察Bundle的传递模式",
             "result的应用",
+            "Standard的加载模式",
     };
 
     private final Class[] activities ={
             BundleMutual.class,
             ResultActivity.class,
+            StandardActivity.class,
     };
 
     private ListView listView;
