@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.insanus.course.aboutactivity.activities.BundleMutual;
+import com.insanus.course.aboutactivity.activities.FragmentActivity;
 import com.insanus.course.aboutactivity.activities.ResultActivity;
 import com.insanus.course.aboutactivity.activities.launchMode.StandardActivity;
 
@@ -18,12 +19,14 @@ public class MainActivity extends AppCompatActivity {
             "观察Bundle的传递模式",
             "result的应用",
             "Standard的加载模式",
+            "Fragment的调用"
     };
 
     private final Class[] activities ={
             BundleMutual.class,
             ResultActivity.class,
             StandardActivity.class,
+            FragmentActivity.class,
     };
 
     private ListView listView;
