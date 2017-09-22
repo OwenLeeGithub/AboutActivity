@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:showDividers="middle"
+    android:divider="?android:attr/dividerHorizontal"
+    tools:context="com.insanus.course.aboutactivity.activities.FragmentActivity"
+    android:baselineAligned="false">
+
+    <fragment
+        android:id="@+id/book_list"
+        android:name="com.insanus.course.aboutactivity.fragment.BookListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"  />
+
+    <FrameLayout
+        android:id="@+id/book_detail_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3" />
+</LinearLayout>
