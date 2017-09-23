@@ -26,7 +26,8 @@
         <activity
             android:name=".activities.launchMode.StandardActivity"
             android:launchMode="standard" />
-        <activity android:name=".activities.FragmentActivity"></activity>
+        <activity android:name=".activities.FragmentActivity" />
+        <activity android:name=".activities.BookDetailActivity"/>
     </application>
 
 </manifest>
